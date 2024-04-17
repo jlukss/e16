@@ -95,6 +95,7 @@
             width: 100%;
         }
         
+        
     </style>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
@@ -153,10 +154,6 @@
         <div class="plan">
             <h2>Floor plan</h2>
             <img src="images/20200807_094609.jpg" alt="Floor plan" />
-        </div>
-        <div class="documents">
-            <h2>Documents</h2>
-            <a href="document1.pdf">Floor plan</a>
         </div>
         <div class="description">
             <h2>Description</h2>
@@ -250,7 +247,7 @@
             <h2>Price</h2>
             <p>
                 <script>
-                    document.write("€" + 123 * 1500);
+                    document.write("€" + Math.floor(122 * 1635.25).toLocaleString('fr-FR'));
                 </script>
             </p>
         </div>
